@@ -10,7 +10,6 @@ import os
 btc_amount = 0.00049
 
 gmail = "magik.narodowy@gmail.com"
-import os
 haslo = os.environ["EMAIL_PASSWORD"]
 
 
@@ -108,4 +107,5 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
     server.send_message(msg)
 
 print("Mail wysłany!")
+
 
