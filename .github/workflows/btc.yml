@@ -2,7 +2,7 @@ name: BTC Mail Bot
 
 on:
   schedule:
-    - cron: '0 15 * * *'   # 16:00 w Polsce (UTC+1)
+    - cron: '0 13 * * *'  # To będzie 14:00 w Polsce (czas zimowy)
   workflow_dispatch:
 
 jobs:
